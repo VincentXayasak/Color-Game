@@ -79,4 +79,5 @@ class CustomGame(Game):
         print("Time Limit Not Entered, Using 20s Time Limit")
         return 20
 
-CustomGame().play()
+if __name__ == "__main__":
+    CustomGame().play()

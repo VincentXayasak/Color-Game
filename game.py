@@ -63,8 +63,4 @@ class Game(tk.Tk) :
         if self._timer > 0:
             self._timer -= 1
             self._timeLabel.config(text = "Time left: "+ str(self._timer))
-            self._timeLabel.after(1000, self._countdown)   
-
-if __name__ == "__main__" :
-    g = Game()           
-    g.mainloop()         
+            self._timeLabel.after(1000, self._countdown)          
